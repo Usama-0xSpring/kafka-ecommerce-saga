@@ -42,6 +42,7 @@ public class PaymentEventListener {
             return;
         }
 
+
         log.info("Processing payment for orderId={}", orderCreated.orderId());
 
         // Simulated payment gateway: ~80% success rate.
